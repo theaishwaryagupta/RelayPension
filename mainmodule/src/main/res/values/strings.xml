@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Relay Pension</string>
+    <string name="Sign_in">Sign In</string>
+    <string name="admin">Administrator</string>
+    <string name="send_otp">SEND OTP</string>
+    <string name="status">Status</string>
+    <string name="mobile_number">MOBILE NUMBER</string>
+    <string name="verify">Verify</string>
+    <string name="enter_otp">OTP</string>
+    <string name="aadharverification">Aadhar Verification</string>
+    <string name="invalid_mobile_no">Invalid Mobile Number</string>
+    <string name="send_again">Send Again</string>
+    <string name="invalid_otp">Invalid OTP</string>
+    <string name="retry">Retry</string>
+    <string name="otp">OTP</string>
+    <string name="aadhar_numbertv">Aadhar Number</string>
+    <string name="fillform">"Application Form"</string>
+    <string name="selectage">Select Age</string>
+    <string name="enter_first_name">First Name</string>
+    <string name="enter_middle_name">Middle Name</string>
+    <string name="enter_last_name">Last Name</string>
+    <!--string for sub-->
+    <string name="invalid_name">Invalid Name</string>
+    <string name="invalid_dob">Invalid D.O.B. required(dd/mm/yyyy)</string>
+    <string name="invalid_phoneno">Please Enter Valid Phone No.</string>
+    <string name="invalid_aadhaar">Invalid Aadhaar No.</string>
+    <string name="invalid_hoseno">Invalid Entry</string>
+    <string name="invalid_postal">Invalid Postal Code</string>
+    <string name="invalid_city">Invalid City Name</string>
+    <string name="invalid_state">Invalid State</string>
+    <string name="invalid_accountnp">Invalid Account No.</string>
+    <string name="invalid">Invalid Entry</string>
+    <string name="invalid_mail">Invalid Email</string>
+    <string name="invalid_password">Invalid Password</string>
+
+
+    <string name="msg69key">204793AanZrgFEZCx5ab118e9</string>
+
+
+    <string name="constituency">Constituency</string>
+    <string name="eligibility2"><![CDATA[2. Annual family income of less than Rs 1,00,000 from all sources (including rent, interest/dividends on savings & investments, earnings from farm, property sale proceeds etc.) of the applicant & spouse.]]></string>
+    <string name="eligibility1">1.) To persons above 60 years.</string>
+    <string name="eligibility_criteriaheading">Eligibility Criteria</string>
+    <string name="elligebility2">3.) The applicant should have an Aadhaar number.</string>
+    <string name="elligibility4">4.) The applicant should have a ‘singly-operated’ account in any Bank in National Capital Territory of Delhi only mapped with Aadhaar number of the applicant for receiving the payment through Aadhaar Payment Bridge System (APBS).</string>
+    <string name="eligibility5">5.) Must not be receiving any pension/ financial assistance from Central Govt/ State Govt/ other governmental local bodies or any other source for this purpose.</string>
+    <string name="title_activity_tab_activityforreadyqueue">TabActivityforreadyqueue</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_tabready_queue">TabactivityReadyQueue</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="submitted_forms">Submitted Forms</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

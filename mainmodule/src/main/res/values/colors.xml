@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ee685151</color>
+    <color name="windowbackground">#A67B4a</color>
+    <color name="windowbackgroundstatus">#A67B5f</color>
+    <color name="edittextcolor">#ffffff</color>
+
+
+    #2e7d32
+
+    005005
+    <color name="primaryColor">#005005</color>
+    <color name="primaryLightColor">#60ad5e</color>
+    <color name="primaryDarkColor">#2e7d32</color>
+    <color name="textColor">#ffffff</color>
+    <color name="errortext">#ff0000</color>
+    <color name="avtivitybackground">#B2B2B2</color>
+    <color name="activityforground">#ffffff</color>
+</resources>

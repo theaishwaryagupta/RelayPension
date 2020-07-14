@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/avtivitybackground"
+    tools:context="com.codewarriors.hackathone.relaypension.SignIn"
+    android:padding="7dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/layoutbackground">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/loginimg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/oie_png" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/materialsignin1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/loginimg"
+            android:layout_marginTop="25dp"
+            android:layout_centerHorizontal="true"
+            app:hintTextAppearance="@style/TextInputLayoutHintText">
+
+            <EditText
+                android:id="@+id/phoneloginet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_gravity="center"
+                android:hint="@string/mobile_number"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:textAlignment="center"
+                android:drawableLeft="@drawable/verifynopic"
+                />
+
+            <requestFocus></requestFocus>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/sendotperrorret"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/materialsignin1"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/errortext"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/sendaddotpbt"
+            android:layout_width="220dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/sendotperrorret"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="@string/send_otp"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/materialsignin2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sendaddotpbt"
+            android:layout_marginTop="25dp"
+            android:layout_centerHorizontal="true"
+            app:hintTextAppearance="@style/TextInputLayoutHintText">
+
+        <EditText
+            android:id="@+id/otpaadet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_gravity="center"
+            android:hint="@string/enter_otp"
+            android:inputType="number"
+            android:maxLength="6"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/vrifyotpeterror"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/errortext"
+            android:layout_below="@id/materialsignin2"
+            android:textSize="12sp"/>
+
+
+        <Button
+            android:id="@+id/verifybt"
+            android:layout_width="220dp"
+            android:layout_height="45dp"
+            android:layout_below="@id/vrifyotpeterror"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="@string/verify"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+
+
+
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>

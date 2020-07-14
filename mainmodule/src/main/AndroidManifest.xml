@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.codewarriors.hackathone.relaypension">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme1">
+        <meta-data
+            android:name="sendotp.key"
+            android:value="@string/msg69key" />
+
+        <activity
+            android:name=".Splash"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignIn"
+            android:label="@string/Sign_in" />
+        <activity
+            android:name=".Aadharverify"
+            android:label="@string/aadharverification" />
+        <activity
+            android:name=".FIllform"
+            android:label="@string/fillform" />
+        <activity android:name=".Insertdatatostub" />
+        <activity android:name=".StubNoReturn" />
+        <activity android:name=".EligibilityActivity" />
+        <activity
+            android:name=".StatusActivity"
+            android:label="@string/status" />
+        <activity
+            android:name=".adminside.AdminLogin"
+            android:label="@string/admin" />
+        <activity
+            android:name=".adminside.listallconspack.ListAllConstituency"
+            android:label="@string/constituency" />
+        <activity
+            android:name=".adminside.tabactivitypack.TabactivityReadyQueue"
+            android:label="@string/title_activity_tabready_queue"
+            android:theme="@style/AppTheme1.NoActionBar" />
+        <activity android:name=".adminside.Admin_review" />
+        <activity android:name=".reapplypack.reapply_fillform" />
+        <activity android:name=".reapplypack.Helpactivity" />
+        <activity android:name=".reapplypack.AboutActivity"></activity>
+    </application>
+
+</manifest>
