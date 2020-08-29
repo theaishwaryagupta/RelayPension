@@ -1,7 +1,7 @@
 # RelayPension
 
 This is an Android Aplication for managing old age Pension Appliactions.
-It was developed during my participation in Smart india Hackathon 2018.
+It was developed during my participation in Smart India Hackathon 2018.
 Problem Statement : - https://innovate.mygov.in/sih_ps/department-is-currently-enrolling-all-old-age-pension-scheme-beneficiaries-online-through-e-district-portal-the-scheme-has-a-finite-number-of-vacancies-for-each-constituency-therefore-once-the-avai/
 
 This was developed by a team of six members.
